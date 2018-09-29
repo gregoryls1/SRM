@@ -1,0 +1,92 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background-color:#12304A;
+  color: white;
+  overflow: hidden;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mat-list-item {
+  border-bottom: 1px solid #2D9BE8
+}
+
+.search {
+  margin-top: -1px;
+}
+
+.search input {
+  height: 65px;
+}
+.fa-search {
+    color: #DEDEDE;
+    font-size: 25px;
+    position: absolute;
+    top: 23px;
+    left: 150px;
+}
+
+.group-nav {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.perfil {
+  width: 220px;
+  height: 40px;
+  margin-top: -12px;
+  background-color: #12304A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-user {
+  color: #DEDEDE;
+}
+
+.perfil p,
+.perfil i {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.bell {  
+  background-color: #2D9BE8;
+  width: 35px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-globe,
+.fa-sync-alt {
+  font-size: 25px;
+}
+
+.fa-at {
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-left: -4px;
+}
+

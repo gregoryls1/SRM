@@ -1,0 +1,73 @@
+<app-navbar></app-navbar>
+<div class="container-dashboard">
+    <div class="list-container">
+        <ul>
+            <li><a href="#">Pagina Inicial</a></li>
+            <li><i class="fas fa-chevron-right"></i></li>
+            <li><a href="#">Painel da Gestão</a></li>
+        </ul>
+    </div>
+    <div class="container-title">
+        <div class="title">
+            <h1 class="">
+                <i class="fas fa-globe"></i> Painel de Gestão
+            </h1>
+        </div>
+        <div class="container-produtos">
+            <p>Produtos:</p>
+            <button type="button" class="btn btn-light">
+                <span class="mr-5">Todos</span>
+                <i class="fa fa-angle-double-down"></i>
+            </button>
+        </div>
+    </div>
+    <div class="container-main container mt-5">
+        <div class="block-atalhos row">
+            <div class="mt-5 col-12 title-container">
+                <h5 class="ml-4">Atalhos</h5>
+            </div>
+            <div class="row container-buttons">
+                <div class=" button-group">
+                    <div class="col-3 group1">
+                        <h5>Operacional</h5>
+                        <button type="button" class="btn btn-light">Envio</button>
+                        <button type="button" class="btn btn-light">Envio de Duplicatas</button>
+                        <button type="button" class="btn btn-light">Nova Operação</button>
+                    </div>
+                    <div class="col-3 group2">
+                        <button type="button" class="btn btn-light">Assinatura</button>
+                        <button type="button" class="btn btn-light">Assinatura Digital</button>
+                    </div>
+                    <div class="line"></div>
+                    <div class="col-3 group3">
+                        <h5>Geral</h5>
+                        <button type="button" class="btn btn-light">Carteira</button>
+                        <button type="button" class="btn btn-light">Instruções</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-alertas container">
+            <div class="row">
+                <div class="col-12 alerta-group">
+                    <h5>Alertas</h5>
+                    <p>Ultimos 5 dias</p>
+                </div>
+                <div class="col-12 alerta-group">
+                    <p>23 Notas Canceladas</p>
+                    <app-button></app-button>
+                </div>
+                <div class="col-12 alerta-group">
+                    <p>13 Notas Canceladas</p>
+                    <app-button></app-button>
+                </div>
+                <div class="col-12 alerta-group2">
+                    <p>7 Assinaturas Digital</p>
+                    <app-button></app-button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
